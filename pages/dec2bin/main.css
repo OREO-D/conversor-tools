@@ -1,0 +1,110 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.menu-header {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 24pt;
+    padding: 10px;
+}
+
+.title {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;   
+}
+.container {
+    
+    background-color: transparent;
+    border: 2px solid white;
+    width: 50%;
+    height: 300px;
+
+    margin: 8% auto;
+    padding: 30px 15px 15px 15px;
+    transition: .3s ease-in-out;
+}
+
+.in_client {
+    width:  calc(92% + 10px);
+    height: 20%;
+    color: white;
+    padding: 10px;
+    font-size: 20pt;
+
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.in_client:focus {
+    border: 2px solid grey;
+    transition: 1s;
+}
+
+h2 {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0px;
+    
+}
+
+.btn_menu {
+    width: 146px;
+    padding: 10px;
+    color: white;
+
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn_menu {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_menu:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    transition: .5s ease-in;
+}
+.message-box{
+    color: greenyellow;
+    margin-left: 15px;
+    transition: .3s ease-in;
+}
+
+.foo-wrapper {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .container{
+        width: 90%;
+        padding: .5rem;
+        transition: .3s ease-in;
+    }
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.menu-header {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 2% auto;
+    border: 2px solid rgb(255, 255, 255);
+    transition: .3s ease-in;
+}
+
+.container > ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.container > ul li {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+.container > ul > li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+.container > ul > li a:hover{
+    
+    background-color: white;
+    transition: .3s ease-in;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.foo-wrapper {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
